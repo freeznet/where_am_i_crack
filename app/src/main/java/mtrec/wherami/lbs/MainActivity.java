@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
-        Button pall_file = (Button) findViewById(R.id.button3);
+        Button pall_file = (Button) findViewById(R.id.button4);
         pall_file.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -55,7 +55,7 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
-        Button bin_file = (Button) findViewById(R.id.button4);
+        Button bin_file = (Button) findViewById(R.id.button3);
         bin_file.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
